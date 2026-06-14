@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Surprise 🎉</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- OPENING SCREEN -->
+<section id="intro">
+  <div class="sparkles"></div>
+
+  <h1>Someone has a surprise for you…</h1>
+
+  <button onclick="startExperience()">
+    Open Your Birthday Card 🎁
+  </button>
+</section>
+
+<!-- MAIN EXPERIENCE -->
+<section id="main" class="hidden">
+
+  <div class="hero">
+    <h1>🎉 Happy Birthday Emma 🎉</h1>
+    <p class="fade">Today is all about you</p>
+  </div>
+
+  <div class="message">
+    <p class="reveal">Today is all about celebrating you…</p>
+    <p class="reveal">Thank you for being such an incredible person…</p>
+    <p class="reveal">I hope this next year brings you everything you deserve…</p>
+  </div>
+
+  <div class="gallery">
+    <h2>📸 Memories</h2>
+    <div class="photos">
+      <div class="photo">Photo 1</div>
+      <div class="photo">Photo 2</div>
+      <div class="photo">Photo 3</div>
+    </div>
+  </div>
+
+  <div class="countdown">
+    <h2>One last surprise…</h2>
+    <div id="timer">3</div>
+  </div>
+
+  <div class="video">
+    <h2>❤️ Your Video</h2>
+    <video controls>
+      <source src="your-video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <footer>
+    <h2>Have the happiest birthday ❤️</h2>
+  </footer>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
